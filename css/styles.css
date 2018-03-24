@@ -1,3 +1,7 @@
+.userOrder {
+  display: none;
+}
+
 #btn {
   background-color: #245620;
   size: large;
