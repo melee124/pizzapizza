@@ -21,11 +21,12 @@ _This code uses HTML, CSS and bootstap, and JavaScript and JQuery._
 
 ## Specifications
 
-_
+_User inputs preferred pizza size, topping selections, and information._
+_Output should be price of selected pizza(s)._
 
 
 ## Known Bugs
-
+_JS errors- the website is not actually functional._
 
 ## Support and contact details
 
