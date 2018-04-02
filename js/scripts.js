@@ -1,11 +1,11 @@
 //Business Logic
-function Pizza(size, meaty toppings, veggie toppings) {
+function Pizza(size, toppings, price) {
   this.size = size;
-  this.meatytopping = meatytopping;
-  this.veggietopping = veggietopping;
+  this.toppings = toppings;
+  this.price = price;
 }
 
-pizza.prototype.sizePrice = fuction(size, toppingsArray) {
+pizza.prototype.sizePrice = function(size, toppingsArray) {
   var total = 0;
   if (pizzaSize === 1) {
     total += 12;
