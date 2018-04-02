@@ -21,7 +21,7 @@
         <div class="row">
           <div class="col-md-4">
             <h2>Please select your pizza size</h2>
-            <select name="pizzasize">
+            <select name="pizzaSize">
               <option value="1">Small</option>
               <option value="2">Medium</option>
               <option value="3">Large</option>
@@ -63,8 +63,9 @@
         </div>
           <button type="button" name="button" id="btn">PIZZA ME!</button>
       </form>
-      <div class="userOrder">
+      <div id="userOrder">
         <h2>Thank you for your order! Please review the details and total below:</h2>
+        <p>You have requested a <span id="pizzaSize"></span> size pizza, with <span id="pizzaToppings"></span>. Your total is:</p>
       </div>
 
       </div>
