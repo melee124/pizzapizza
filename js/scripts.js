@@ -27,11 +27,14 @@ pizza.prototype.sizePrice = fuction(size, toppingsArray) {
     }
   }
   }
-
+Pizza.prototype.cost = function( size, toppings, price) {
+  return "$" + this.price + " " + this.size + "pizza, with" + this.toppings + ".";
+}
 //UI Logic
 $(document).ready(function() {
   $("form#pizza-order").submit(function() {
     event.preventDefault();
+    debugger;
     var pizzaToppings = $('input:checkbox[name=toppings]:checked');
     var newSize = $('pizzaSize').val();
     var toppingsArray = [];
@@ -42,6 +45,8 @@ $(document).ready(function() {
     var price = newPizza.sizePrice(newSize, toppingsArray);
     var output = newPizza.cost(sizeNew, toppingsArray, price);
     $('#userOrder').show();
+    $('.order').text(output);
+    $('#container').hide();
     });
     //$("input:checkbox[name=fun-transport]:checked").each(function() {
       //var funTransport = $(this).val();
