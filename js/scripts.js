@@ -7,19 +7,19 @@ function Pizza(size, toppings, price) {
 };
 
 Pizza.prototype.totalPrice = function() {
-  return (this.pizzaToppings.length + this.sizePrice).toFixed();
+  return (this.pizzaToppings.length + this.pizzaPrice).toFixed(1);
 };
 
 var sizePrice = function(size) {
   debugger;
   var price = 0;
-  if (size === 1) {
+  if (size === "1") {
     price = 12;
-  } else if (size === 2) {
+  } else if (size === "2") {
     price = 15;
-  } else if (size === 3) {
+  } else if (size === "3") {
     price = 18;
-  } else if (size === 4) {
+  } else if (size === "4") {
     price = 24;
   }
     return price;
