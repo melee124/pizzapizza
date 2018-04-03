@@ -13,13 +13,13 @@ Pizza.prototype.totalPrice = function() {
 var sizePrice = function(size) {
   debugger;
   var price = 0;
-  if (size === "1") {
+  if (size === "small") {
     price = 12;
-  } else if (size === "2") {
+  } else if (size === "medium") {
     price = 15;
-  } else if (size === "3") {
+  } else if (size === "large") {
     price = 18;
-  } else if (size === "4") {
+  } else if (size === "gargantuan") {
     price = 24;
   }
     return price;
@@ -42,7 +42,7 @@ $(document).ready(function() {
     var userTotal = newPizza.totalPrice();
 
     $('#userOrder').show();
-    $('.order').text(newPizza.pizzaSize + "" + newPizza.toppings + "pizza.");
+    $('.order').text(newPizza.pizzaSize + " " + newPizza.pizzaToppings + " pizza.");
     $('#total').text("$" + userTotal);
     $('#pizza-order').hide();
     });
