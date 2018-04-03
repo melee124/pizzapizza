@@ -6,7 +6,7 @@
 
 ## Description
 
-_This website allows users to order a pizza, selecting different toppings and checking the final order and price._
+_This website allows users to order a pizza, selecting different toppings and sizes and checking the final order and price._
 
 ## Setup/Installation Requirements
 
@@ -22,11 +22,11 @@ _This code uses HTML, CSS and bootstap, and JavaScript and JQuery._
 ## Specifications
 
 _User inputs preferred pizza size, topping selections, and information._
-_Output should be price of selected pizza(s)._
+_Output should be price of selected pizza(s), and topping/size selections._
 
 
 ## Known Bugs
-_JS errors- the website is not actually functional._
+_You are not able to order more than one pizza yet._
 
 ## Support and contact details
 

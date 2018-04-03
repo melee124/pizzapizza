@@ -29,6 +29,38 @@ var sizePrice = function(size) {
 $(document).ready(function() {
   $("#pizza-order").submit(function(event) {
     event.preventDefault();
+  //  $("#add-pizza").append(<div class="row">
+  //    <div class="col-md-4">
+  //      <h2>Please select your pizza size</h2>
+  //      <select id="pizzaSize">
+  //        <option value="small">Small</option>
+  //        <option value="medium">Medium</option>
+  //        <option value="large">Large</option>
+  //        <option value="gargantuan">Gargantuan!</option>
+  //      </select>
+  //    </div>
+  //    <div class="col-md-4">
+  //      <h2>Next, please select your toppings.</h2>
+  //      <div class="row">
+  //        <div class="col-md-6">
+  //          <h3>Meaty Toppings</h3>
+  //          <input type="checkbox" name="topping" value="pepperoni">Pepperoni<br>
+  //          <input type="checkbox" name="topping" value="sausage">Sausage<br>
+  //          <input type="checkbox" name="topping" value="ham">Ham<br>
+  //          <input type="checkbox" name="topping" value="bacon">Bacon<br>
+  //          <input type="checkbox" name="topping" value="chicken">Chicken<br>
+  //          <input type="checkbox" name="topping" value="Salmon">Salmon<br>
+  //        </div>
+  //        <div class="col-md-6">
+    //        <h3>Veggie Toppings</h3>
+  //          <input type="checkbox" name="topping" value="mushrooms">Mushrooms<br>
+  //          <input type="checkbox" name="topping" value="olives">Olives<br>
+  //          <input type="checkbox" name="topping" value="artichoke">Artichoke<br>
+  //          <input type="checkbox" name="topping" value="asparagus">Asparagus<br>
+  //          <input type="checkbox" name="topping" value="pepper">Bell Peppers<br>
+  //          <input type="checkbox" name="topping" value="spinach">Spinach<br>
+  //        </div>
+  //      </div>);
     debugger;
     var pizzaToppings = [];
     var size = $('#pizzaSize').val();
